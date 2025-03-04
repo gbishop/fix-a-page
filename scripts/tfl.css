@@ -1,0 +1,18 @@
+/* Copy the 7 lines below this comment for each id 
+* you would like to block.
+* Change this number ---------vvvv */
+article[data-comment-user-id="5011"] {
+  opacity: 0.02;
+  &:hover {
+    transition: opacity 10s;
+    opacity: 1;
+  }
+}
+
+article[data-comment-user-id="175198"] {
+  opacity: 0.02;
+  &:hover {
+    transition: opacity 10s;
+    opacity: 1;
+  }
+}

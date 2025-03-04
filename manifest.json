@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Inject CSS",
+  "version": "1.0",
+  "description": "Inject CSS into a site",
+  "content_scripts": [
+    {
+      "css": ["scripts/tfl.css"],
+      "matches": ["https://www.thefreshloaf.com/*"]
+    },
+    {
+      "css": ["scripts/weather.css"],
+      "matches": ["https://weather.com/weather/radar/interactive/*"]
+    }
+  ]
+}

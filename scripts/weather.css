@@ -1,0 +1,9 @@
+div[class|="FlexMap--ProgressBar"] {
+  display: none;
+}
+aside.region-sidebar {
+  display: none;
+}
+main#MainContent > div > div {
+  max-width: 100% !important;
+}
