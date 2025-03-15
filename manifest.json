@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Inject CSS",
+  "name": "Inject CSS/JS",
   "version": "1.0",
-  "description": "Inject CSS into a site",
+  "description": "Inject CSS/JS into a site",
   "content_scripts": [
     {
       "css": ["scripts/tfl.css"],
@@ -11,6 +11,14 @@
     {
       "css": ["scripts/weather.css"],
       "matches": ["https://weather.com/weather/radar/interactive/*"]
+    },
+    {
+      "js": ["scripts/pws.js"],
+      "matches": ["https://www.wunderground.com/dashboard/pws/*"]
+    },
+    {
+      "js": ["scripts/nws.js"],
+      "matches": ["https://forecast.weather.gov/MapClick.php"]
     }
   ]
 }
