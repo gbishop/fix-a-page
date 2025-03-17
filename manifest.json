@@ -18,7 +18,7 @@
     },
     {
       "js": ["scripts/nws.js"],
-      "matches": ["https://forecast.weather.gov/MapClick.php"]
+      "matches": ["https://forecast.weather.gov/*"]
     }
   ]
 }
